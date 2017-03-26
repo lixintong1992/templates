@@ -13,6 +13,9 @@ public class Solution {
             sumOfArray += array[i];
         }
         System.out.println(sumOfArray);
+        String double_str = String.format("%.4f", (double)sumOfArray);
+        System.out.println(double_str);
+        
         in.close();
     }
 }
