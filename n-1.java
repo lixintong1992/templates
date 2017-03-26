@@ -15,7 +15,8 @@ public class Solution {
         System.out.println(sumOfArray);
         String double_str = String.format("%.4f", (double)sumOfArray);
         System.out.println(double_str);
-        
+        System.out.printf("%.6f", (1/(double)sumOfArray));
+
         in.close();
     }
 }
