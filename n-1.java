@@ -13,9 +13,14 @@ public class Solution {
             sumOfArray += array[i];
         }
         System.out.println(sumOfArray);
+
         String double_str = String.format("%.4f", (double)sumOfArray);
         System.out.println(double_str);
         System.out.printf("%.6f", (1/(double)sumOfArray));
+
+        String time12 = "07:05:45PM"
+        int h = Integer.parseInt(time12.substring(0,2));
+        System.out.printf("%02d" + time12.substring(2, 8), h);
 
         in.close();
     }
