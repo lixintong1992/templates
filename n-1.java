@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.*;
+import java.math.BigInteger;
 
 public class Solution {
 
@@ -21,6 +22,9 @@ public class Solution {
         String time12 = "07:05:45PM"
         int h = Integer.parseInt(time12.substring(0,2));
         System.out.printf("%02d" + time12.substring(2, 8), h);
+
+        BigInteger t1= new BigInteger(in.nextInt()+"");
+        t3 = t2.multiply(t2).add(t1);
 
         in.close();
     }
